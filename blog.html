@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Today</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #191627;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        color: white;
+      }
+      header h1 {
+        font-family: "Montserrat", sans-serif;
+        text-decoration: underline;
+        font-size: 35px;
+        line-height: 30px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #e6e5e5;
+      }
+      section {
+        color: #b0e9ff;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        margin-top: 50px;
+        margin: 50px 150px;
+        gap: 40px;
+      }
+      h2,
+      h3 {
+        color: yellow;
+      }
+      .pdate {
+        font-size: smaller;
+        font-style: italic;
+      }
+      .Btexts {
+        border: 0.5px solid white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      section ul,
+      ol {
+        margin-left: 50px;
+      }
+      section .buttons button {
+        border-radius: 30%;
+        padding: 10px 20px;
+        color: #ffad61;
+        font-weight: 700;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #999;
+        margin: 10px 8px 10px 0;
+        transition: background-color 0.5s ease;
+      }
+      section .buttons button a{
+        color: #ffad61;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      section .buttons button:hover {
+        background-color: #fff;
+        color: blue;
+      }
+      aside a{
+        display: block;
+        margin:10px 0 ;
+      }
+      section aside .archives{
+        margin: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Subscribe</p>
+      <h1>Blog Title</h1>
+      <p class="search"><i class="fa fa-search" aria-hidden="true"></i></p>
+    </header>
+    <section>
+      <div class="content">
+        <h2>Sample blog</h2>
+        <p class="pdate">
+          <br />July 21/2023 by Satabdisundar Subijaya Behera <br />
+        </p>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+          reiciendis eligendi in placeat eius? Modi quibusdam laboriosam numquam
+          debitis vel.
+          <br />
+          <br />
+          <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+          fugit cum praesentium iste id esse saepe minus ea sunt reiciendis et
+          voluptate a quas vero numquam voluptatibus aperiam possimus modi
+          consectetur quam, aliquid rerum ipsam incidunt placeat. Ex odit
+          nostrum culpa expedita aut pariatur cupiditate necessitatibus, nihil
+          rerum, recusandae est? <br />
+          <br />
+        </p>
+        <p class="Btexts">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          tempore placeat asperiores amet cupiditate, nihil possimus molestias
+          suscipit distinctio porro!
+        </p>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          sapiente saepe praesentium laudantium explicabo maiores distinctio
+          eveniet quam velit modi. <br /><br />
+        </p>
+        <h3>Heading <br /></h3>
+        <p class="texts">
+          <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Maiores provident eos voluptate quam est porro quaerat quae veniam
+          ullam ratione? <br />
+        </p>
+        <h3><br />Sub Heading</h3>
+        <p class="texts">
+          <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Tenetur, et! <br /><br />
+        </p>
+        <p class="Btexts">Example Blog Text</p>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          voluptate dolor saepe modi explicabo ducimus asperiores quam
+          consequatur. Suscipit, neque pariatur minus vel possimus molestiae.
+          <br />
+          <br />
+        </p>
+        <h3>Sub Heading</h3>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quibusdam, amet voluptatem. Corporis minus placeat a dicta ipsam
+          mollitia ratione eligendi consectetur, optio, dignissimos ex! Quos.
+          <br />
+          <br />
+        </p>
+        <ul>
+          <li>
+            <p class="texts">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              doloribus?
+            </p>
+          </li>
+          <li>
+            <p class="texts">
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+            </p>
+          </li>
+          <li>
+            <p class="texts">Lorem ipsum dolor sit amet</p>
+          </li>
+        </ul>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          suscipit dolore nihil! Ipsam, veniam. Ullam! <br />
+          <br />
+        </p>
+        <ol>
+          <li>
+            <p class="texts">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              doloribus?
+            </p>
+          </li>
+          <li>
+            <p class="texts">
+              Lorem ipsum dolor sit, amet consectetur adipisicing
+            </p>
+          </li>
+          <li><p class="texts">Lorem ipsum dolor sit amet</p></li>
+        </ol>
+        <p class="texts">
+          <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reiciendis, repudiandae! <br />
+          <br />
+        </p>
+        <div class="buttons">
+          <button><a href="home.html">Go Back</a></button>
+          <button>Newest Post</button>
+        </div>
+      </div>
+      <aside>
+        <div class="about">
+          <h3>About</h3>
+          <p>
+            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non,
+            ducimus fugit. Voluptatibus architecto voluptatum deleniti, quam
+            distinctio tenetur eaque sunt! <br> <br>
+          </p>
+        </div>
+
+        <div class="archives">
+          <h3>Archives <br></h3>
+          <a href="#">January</a>
+          <a href="#">February</a>
+          <a href="#">March</a>
+          <a href="#">April</a>
+          <a href="#">May</a>
+          <a href="#">June</a>
+          <a href="#">July</a>
+          <a href="#">August</a>
+          <a href="#">September</a>
+          <a href="#">October</a>
+          <a href="#">November</a>
+          <a href="#">December</a>
+        </div>
+
+        <div class="socials">
+          <h3>Elsewhere <br></h3>
+          <a href="#">Twitter</a>
+          <a href="#">Facebook</a>
+          <a href="#">Linked In</a>
+        </div>
+      </aside>
+    </section>
+  </body>
+</html>
